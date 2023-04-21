@@ -1,13 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- *main - Entry point
+ * main - Entry point
  *
  * Description: print the value of n : greater than 5, less than 6 and not 0
  *
- * Returns 0 on success, nonzero on failure
+ * Return: 0 (success)
 */
+
 int main(void)
 {
 	int n, digit;
