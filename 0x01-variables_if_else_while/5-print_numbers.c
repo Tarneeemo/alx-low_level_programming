@@ -10,14 +10,12 @@
 
 int main(void)
 {
-	int digit = 0;
+	int n;
 
-	while (digit <= 9)
+	for (n = 0; n < 10; n++)
 	{
-		printf("%u", digit);
-		digit++;
+	printf("%d", n);
 	}
 	printf("\n");
-
 	return (0);
 }
