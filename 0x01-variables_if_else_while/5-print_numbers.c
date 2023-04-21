@@ -1,4 +1,6 @@
-#include <stido.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
