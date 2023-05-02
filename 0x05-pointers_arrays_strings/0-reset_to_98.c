@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * rest_to_98 - takes the pointer and updates the value
+ * reset_to_98 - takes the pointer and updates the value to 98
  *
  * @n: int to check
  *
- * Return: 0 is success
+ * Return: Nothing
 */
 
-void rest_to_98(int *n)
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
