@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+#include <stdlib.h>
 
 /**
  * _calloc - allocates memory for arr of @nmemb elements of @size bytes
