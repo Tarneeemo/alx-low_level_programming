@@ -16,11 +16,11 @@ size_t print_list(const list_t *h)
 {
 	int n = 0;
 
-	while (h)
+	while (h != NULL)
 	{
-		if (!h->str)
+		if (h->str == NULL)
 		{
-			printf("[0] (nil)\n");
+			printf("[%d] %s\n", 0, "(nil)");
 		}
 		else
 		{
