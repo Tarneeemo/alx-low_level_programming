@@ -24,7 +24,7 @@ void print_binary(unsigned long int n)
 	for (; i >= 0; i--)
 	{
 		if ((n >> i) & 1)
-			printd("1");
+			printf("1");
 		else
 			printf("0");
 	}
